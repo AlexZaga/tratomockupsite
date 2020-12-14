@@ -1,0 +1,98 @@
+a {
+    text-decoration: none;
+}
+input:hover {
+    border: solid 2px cornflowerblue;
+}
+.texto {
+    font-weight: 200;
+    font-size: 1.5em;
+    color: darkblue;
+    text-shadow: 2px 2px 4px #000000;
+}
+.texto-home {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #343434;
+    text-shadow: 1px 1px 3px #000000;
+}
+.transaction-board {
+    position: absolute;
+    margin-top: 80vh;
+    color: #000000;
+}
+.home-board {
+    position: absolute;
+    margin-top: 110vh;
+    color: #000000;
+}
+.login-board {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 100vh;
+    color: #000000;
+}
+.subtitulo {
+    font-weight: bold;
+    color: #343434;
+    text-shadow: 2px 2px 4px #000000;
+}
+.loginerror {
+    font-weight: bold;
+    font-size: small;
+    color: red;
+}
+.error-leyend{
+    font-weight: bold;
+    font-size: small;
+    color: red;
+}
+.success-leyend{
+    font-weight: bold;
+    font-size: small;
+    color: green;
+}
+.neutral-leyend{
+    background-color: transparent;    
+}
+.sombra {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.buttonForm {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.4em;
+    cursor: pointer;
+}
+.alerta {
+    position: relative;
+    bottom: -25px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.label-form {
+    font-size: 0.6em;
+    color: lightslategray
+}
+.transfer-table-section{
+    position: absolute;
+    margin-top: 180vh;
+    color: darkslategrey;
+}
